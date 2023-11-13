@@ -1,0 +1,106 @@
+*{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 177);
+}
+header{
+    background-color: orange;
+    margin-bottom: 5%;
+    border-bottom: solid 3px black;
+}
+#início ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+main{
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+#título-cardápio{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 3%;
+    background-color: orange;
+    font-size: x-large;
+    border: solid 3px black;
+}
+.cardápio-principal{
+    background-color: rgb(255, 99, 42);
+    border: solid 3px black;
+    text-align: center;
+    width: fit-content;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cardápio-principal div{
+    text-align: center;
+    padding: 3%;
+}
+.cardápio-principal div>img{
+    background-color: rgb(255, 217, 203);
+    border: 3px solid black;
+}
+.cardápio-principal div>p{
+    background-color: orange;
+    border: solid 3px black;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    font-size: larger;
+}
+footer{
+    background-color: orange;
+    padding: 2%;
+    border-top: solid 3px black;
+}
+#barra-final{
+    background-color: rgb(255, 99, 42);
+}
+#barra-final ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: solid 3px black;
+    font-size: larger;
+}
+#app{
+    width: 50%;
+    margin: auto;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+#app h2{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+#qr-code{
+    border: solid 3px black;
+    padding: 2%;
+}
+#redes-sociais{
+    background-color: rgb(255, 99, 42);
+    border: solid 3px black;
+    padding: 2%;
+    text-align: center;
+}
+#redes-sociais i{
+    margin: auto;
+    font-size: xx-large;
+    text-indent: 50px;
+}
