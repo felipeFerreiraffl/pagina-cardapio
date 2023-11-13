@@ -37,14 +37,15 @@ main{
 .cardápio-principal{
     background-color: rgb(255, 99, 42);
     border: solid 3px black;
-    align-items: center;
-    padding: 7%;
+    text-align: center;
+    width: fit-content;
+    padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .cardápio-principal div{
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 }
 .cardápio-principal div>img{
     background-color: rgb(255, 217, 203);
@@ -86,7 +87,6 @@ footer{
     width: 70%;
     display: flex;
     align-items: center;
-    font-size: xx-large;
     gap: 3%;
 }
 #qr-code{
