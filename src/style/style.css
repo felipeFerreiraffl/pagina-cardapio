@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 177);
+}
+header{
+    background-color: orange;
+    margin-bottom: 5%;
+    border-bottom: solid 3px black;
+}
+#inicio ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+main{
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+#titulo-cardapio{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 3%;
+    background-color: orange;
+    font-size: x-large;
+    border: solid 3px black;
+}
+.cardapio-principal{
+    background-color: rgb(255, 99, 42);
+    border: solid 3px black;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cardapio-principal div{
+    text-align: center;
+    padding: 3%;
+}
+.cardapio-principal div>img{
+    background-color: rgb(255, 217, 203);
+    border: 3px solid black;
+}
+.cardapio-principal div>p{
+    background-color: orange;
+    border: solid 3px black;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    font-size: larger;
+}
+footer{
+    background-color: orange;
+    padding: 2%;
+    border-top: solid 3px black;
+}
+#barra-final{
+    background-color: rgb(255, 99, 42);
+}
+#barra-final ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: solid 3px black;
+    font-size: larger;
+}
+#app{
+    width: 50%;
+    margin: auto;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+#app h2{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+#redes-sociais{
+    background-color: rgb(255, 99, 42);
+    border: solid 3px black;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#redes-sociais i{
+    margin: auto;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 430px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    header {
+        width: 100%;
+        font-size: 13px;
+    }
+    header img {
+        width: 80px;
+    }
+    #inicio ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 3%;
+        gap: 10px;
+    }
+    #titulo-cardapio {
+        width: 50%;
+        font-size: 80%;
+    }
+    .cardapio-principal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cardapio-principal div>img {
+        width: 80%;
+    }
+    #barra-final {
+        font-size: 11px;
+    }
+    #app {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        font-size: 13px;
+    }
+    #app h2 {
+        display: flex;
+        flex-direction:column;
+    }
+    #app img {
+        width: 70%;
+    }
+    #qr-code {
+        display: flex;
+        justify-content: center;
+    }
+    #redes-sociais i {
+        font-size: 25px;
+    }
+}
